@@ -39,6 +39,16 @@
     --color-card: var(--card);
     --color-foreground: var(--foreground);
     --color-background: var(--background);
+    --color-harvest-surface: var(--harvest-surface);
+    --color-harvest-surface-foreground: var(--harvest-surface-foreground);
+    --color-harvest-blue: var(--harvest-blue);
+    --color-harvest-banner: var(--harvest-banner);
+    --color-harvest-banner-border: var(--harvest-banner-border);
+    --color-harvest-banner-foreground: var(--harvest-banner-foreground);
+    --color-harvest-row-selected: var(--harvest-row-selected);
+    --color-harvest-link: var(--harvest-link);
+    --color-gain-positive: var(--gain-positive);
+    --color-gain-negative: var(--gain-negative);
     --radius-sm: calc(var(--radius) * 0.6);
     --radius-md: calc(var(--radius) * 0.8);
     --radius-lg: var(--radius);
@@ -49,7 +59,7 @@
 }
 
 :root {
-    --background: oklch(1 0 0);
+    --background: oklch(0.97 0 0);
     --foreground: oklch(0.145 0 0);
     --card: oklch(1 0 0);
     --card-foreground: oklch(0.145 0 0);
@@ -81,40 +91,60 @@
     --sidebar-accent-foreground: oklch(0.205 0 0);
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
+    --harvest-surface: oklch(1 0 0);
+    --harvest-surface-foreground: oklch(0.145 0 0);
+    --harvest-blue: oklch(0.548 0.214 264);
+    --harvest-banner: oklch(0.94 0.03 264);
+    --harvest-banner-border: oklch(0.88 0.05 264);
+    --harvest-banner-foreground: oklch(0.35 0.12 264);
+    --harvest-row-selected: oklch(0.94 0.04 264);
+    --harvest-link: oklch(0.548 0.214 264);
+    --gain-positive: oklch(0.52 0.17 145);
+    --gain-negative: oklch(0.55 0.22 25);
 }
 
 .dark {
-    --background: oklch(0.145 0 0);
+    --background: #0a0a12;
     --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
+    --card: #171a26;
     --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
+    --popover: #171a26;
     --popover-foreground: oklch(0.985 0 0);
     --primary: oklch(0.922 0 0);
     --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
+    --secondary: #171a26;
     --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
+    --muted: #171a26;
     --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
+    --accent: #171a26;
     --accent-foreground: oklch(0.985 0 0);
     --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
+    --border: #252836;
+    --input: #252836;
     --ring: oklch(0.556 0 0);
     --chart-1: oklch(0.87 0 0);
     --chart-2: oklch(0.556 0 0);
     --chart-3: oklch(0.439 0 0);
     --chart-4: oklch(0.371 0 0);
     --chart-5: oklch(0.269 0 0);
-    --sidebar: oklch(0.205 0 0);
+    --sidebar: #171a26;
     --sidebar-foreground: oklch(0.985 0 0);
     --sidebar-primary: oklch(0.488 0.243 264.376);
     --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
+    --sidebar-accent: #171a26;
     --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
+    --sidebar-border: #252836;
     --sidebar-ring: oklch(0.556 0 0);
+    --harvest-surface: #171a26;
+    --harvest-surface-foreground: oklch(0.985 0 0);
+    --harvest-blue: oklch(0.548 0.214 264);
+    --harvest-banner: #171a26;
+    --harvest-banner-border: #252836;
+    --harvest-banner-foreground: oklch(0.85 0.04 264);
+    --harvest-row-selected: #1e2233;
+    --harvest-link: oklch(0.65 0.18 264);
+    --gain-positive: oklch(0.72 0.19 145);
+    --gain-negative: oklch(0.65 0.2 25);
 }
 
 @layer base {
